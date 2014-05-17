@@ -1,0 +1,99 @@
+/* need to add padding, boarders, and margins.
+need to center content.
+need to add width and height to divs
+need to float side-bar and content areas
+need to do pseudo classes for links. (i.e. floating over)
+do some positioning
+do a div that contains an image and a coption (floating over the image)*/
+
+body {
+	background-color: #C5DAE8;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #5C554F;
+	width: 100%;
+	margin-top: 2px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#header {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+
+	background-color: #8D9BA6;
+	text-align: center;
+	border-bottom: 	2px solid #5C554F;
+	border-top: 2px solid #5C554F
+}
+
+h1 {
+	padding: 10px;
+}
+
+
+h2, h3 {
+	margin-top: 0px;
+	background-color: #8D9BA6;
+	padding-top: 3px;
+	padding-left: 10px;
+	padding-bottom: 3px;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+
+#content, #sidebar {
+
+
+}
+
+#content{
+	position: relative;
+	top: 120px;
+	float: left;
+	width: 60%;
+
+	border: 2px solid #5C554F;
+	margin-left: 25px;
+	background-color: #D9DAD8;
+}
+
+.latin {
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-size: 10pt;
+}
+
+#sidebar {
+	position: relative;
+	top: 120px;
+	right: left 20px;
+	width: 250px;
+	height: 400px;
+
+	float: right;
+	margin-right: 25px;
+
+	border-top: 2px solid #5C554F;
+	border-left: 2px solid #5C554F;
+	border-bottom: 2px solid #5C554F;
+
+	background-color: #c9bcb3;
+}
+
+#footer {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	clear: both;
+}
+
+
+
