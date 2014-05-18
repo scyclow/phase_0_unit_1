@@ -24,12 +24,22 @@ body {
 	background-color: #8D9BA6;
 	text-align: center;
 	border-bottom: 	2px solid #5C554F;
-	border-top: 2px solid #5C554F
+	border-top: 2px solid #5C554F;
 }
 
 h1 {
 	padding: 10px;
 }
+
+
+#page {
+
+	margin-top: 120px;
+
+	padding-left: 10px;
+
+}
+
 
 
 h2, h3 {
@@ -51,18 +61,27 @@ h3 {
 
 #content, #sidebar {
 
-
+	border: 2px solid #5C554F;
+	background-color: #D9DAD8;
+	text-align: justify;
 }
 
 #content{
-	position: relative;
-	top: 120px;
 	float: left;
-	width: 60%;
+	width: 600px;
 
-	border: 2px solid #5C554F;
-	margin-left: 25px;
-	background-color: #D9DAD8;
+}
+
+#sidebar {
+	position: absolute;
+	left: 630px;
+	width: 250px;
+
+}
+
+#content p {
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .latin {
@@ -71,22 +90,21 @@ h3 {
 	font-size: 10pt;
 }
 
-#sidebar {
-	position: relative;
-	top: 120px;
-	right: left 20px;
-	width: 250px;
-	height: 400px;
-
-	float: right;
-	margin-right: 25px;
-
-	border-top: 2px solid #5C554F;
-	border-left: 2px solid #5C554F;
-	border-bottom: 2px solid #5C554F;
-
-	background-color: #c9bcb3;
+.picture {
+	position:relative;
 }
+
+p.caption {
+	background-color: #C5DAE8;
+	position: absolute;
+	bottom: 0px;
+	font-size: 8pt;
+	border: 1px solid #5C554F;
+}
+
+a:link {color: #5db0d4;}
+a:visited {color: #D45D5D;}
+a:hover {color: #B2D45D;}
 
 #footer {
 	position: absolute;
