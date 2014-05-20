@@ -8,3 +8,12 @@ Take a moment to reflect on reading other people's responses regarding their fea
 
 <!-- Insert your response here -->
 
+Hey everyone, 
+
+I'm Steve. I currently live in Chicago, and am looking forward to working with you all. 
+
+I'm also pretty swamped at the moment, and just finished the tech blog. Hopefully next week will be better. I'm generally free to pair after work (5pm CST). I haven't done it yet, but it sounds pretty interesting. For those currently in the city, maybe we can meet up and grab a drink sometime this week?
+
+
+Best,
+Steve
