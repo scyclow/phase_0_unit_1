@@ -8,8 +8,6 @@
 
 
 
-
-
 * The DOM is a model for organizing web pages. HTML elements are all objects within the document, which are defined in a tree-like structure (ex. a list item is stored within an unordered list, which is stored in a div, which is stored within another another div, etc.). I understand that specific lexicon of the DOM exists so JS and Python and Ruby can interact with the HTML to make it more dynamic, but I'm a little unsure as to how this works. Hopefully it will become more clear as I start to use JavaScript.
 
 * The wordpress site I visited (http://hideitinabook.com/) differed in several ways. First, it included (what I suspect are) event handlers. At first that several divs at the top of the document do not do anything. But, they are merely hidden. Once clicking on the menu button, a drop-down menu pops up. In addition, the wordpress document containts several <script> tags. 
