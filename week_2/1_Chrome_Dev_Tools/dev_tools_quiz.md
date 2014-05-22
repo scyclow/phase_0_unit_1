@@ -25,3 +25,29 @@
   * Explain how you would find out this information, and list the URL of offending image here and how big it is.
 
 * Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the easiest thing to change to optimize the website?  How many kilobytes of data can be eliminated?
+
+
+1. a) The elements tab lets you view the current page's HTML file, select each element in the file, and view the all the CSS selectors that currently affect it. You can also live edit these files on this tab. You can also live edit CSS on the source tab. 
+
+  b) Clicking the link the JS file from within the HTML file brings you to the sources tab, where you can live edit the JS file.
+
+  c) The network tab shows the loading time, file size, and type by file name. This helps visualize which fiels are taking the longest to load. 
+
+2. alt+command+i
+
+3. original background color: #0b0f11; I'm having some trouble changing the hover color. For some reason all of the other changes happen live, but when I add {color: black} to a:hover, it does not turn black upon hover. 
+
+4. This picture is loaded from a .gif file. We cannot edit this because it it not html, css, or js. 
+
+5. The largest image is 92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png, which does not even show up upon loading. 
+It is hosted at http://www.ticketswizard.com/Images/Catalog/92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png
+It is 316kb.
+You find this by going to the network tab and sorting the files by size. 
+
+6.
+
+
+
+
+
+
