@@ -44,10 +44,4 @@ It is hosted at http://www.ticketswizard.com/Images/Catalog/92624182-c482-4a35-8
 It is 316kb.
 You find this by going to the network tab and sorting the files by size. 
 
-6.
-
-
-
-
-
-
+6. Compressing many of the images would sabe 885kb, reducgin load time by 39%. Minifying the JavaScript, HTML, and CSS would also lead to significant improvements in performance.
