@@ -3,19 +3,19 @@ Define the following commands and describe how they work/what they do.
 
 
 #### add
-<!-- Your defnition here -->
+Adds a file to a git repository.
 
 #### branch
-<!-- Your defnition here -->
+Creates an alternate timeline of changes to files in the repository.
 
 #### checkout
-<!-- Your defnition here -->
+Switches from current branch to a specified branch.
 
 #### clone
 <!-- Your defnition here -->
 
 #### commit
-<!-- Your defnition here -->
+Saves changes on the current branch, and moves on.
 
 #### fetch
 <!-- Your defnition here -->
