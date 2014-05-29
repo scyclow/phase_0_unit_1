@@ -26,8 +26,8 @@ members[3] = "Mary";
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
 // 
-// 
-// 
+// Overall, this challenge was not very difficult. I was initially thrown off a bit by the syntax, but picked it up quickly. 
+// In all, this exercise was a bit rote. I thought the test driven development aspect was kind of interesting. Maybe the exercise would be more interesting if it looked like the prep work's ruby challenges. 
 // 
 // 
 // 
