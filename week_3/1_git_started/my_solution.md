@@ -44,8 +44,18 @@ Pulls up a list of all the files that have been changed since the last commit, s
 ## Release 4: Git Workflow
 
 - Push files to a remote repository
+	After committing files...
+	* git push <___ pushes files to remote repo. 
+	OR git push <remote> <branch> <___ pushes to a specific branch of that repo
 - Fetch changes
+	* git remote add upstream <remote> <___adds a new remote repo, from which you can pull things.
+	* git fetch upstream <___ fetches from the upstream you just added
+	* git branch <___ make sure you're on your master branch
+	* git merge upstream/master <___ merges the upstream repo's master branch
 - Commit locally
+	* git status <___ checks to see which files have been changed, or added to the repo (witout being tracked)
+	* git add <files> <___ add the untracked or altered files to the staging area...waiting to be committed.
+	* git commit -m <notes> <___commits everything in staging area.
 
 ## Release 5: Errors you encountered
 1. Error
